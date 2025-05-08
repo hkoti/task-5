@@ -76,7 +76,7 @@ module "eks" {
     java = {
       name = "node-group-java"
 
-      instance_types = ["t3.medium"]
+      instance_types = ["r5.xlarge"]
 
       min_size     = 0
       max_size     = 3
@@ -86,7 +86,7 @@ module "eks" {
     react = {
       name = "node-group-react"
 
-      instance_types = ["t3.medium"]
+      instance_types = ["r5.xlarge"]
 
       min_size     = 0
       max_size     = 3
@@ -96,7 +96,7 @@ module "eks" {
     db = {
       name = "node-group-db"
 
-      instance_types = ["t3.medium"]
+      instance_types = ["r5.xlarge"]
 
       min_size     = 0
       max_size     = 3
